@@ -1,0 +1,25 @@
+{
+  "name": "repro-nanohtml-render-array",
+  "description": "Repro for nanohtml's server array render",
+  "repository": "yoshuawuyts/repro-nanohtml-render-array",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "nanohtml": "^1.0.1"
+  },
+  "devDependencies": {
+    "dependency-check": "^3.1.0",
+    "standard": "^11.0.0",
+    "tape": "^4.9.0"
+  },
+  "keywords": [
+    "nanohtml",
+    "repro",
+    "server"
+  ],
+  "license": "Apache-2.0"
+}
